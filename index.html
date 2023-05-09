@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>RaiBot</title>
+    <meta name="description" content="">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.png">
+    <!-- NewsBoard CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/widgets.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <div class="scroll-progress gradient-bg"></div>
+    <!-- Start Preloader -->
+    <div class="preloader text-center">
+        <div class="circle"></div>
+    </div>
+    <!--Offcanvas sidebar-->
+    <aside id="sidebar-wrapper" class="custom-scrollbar offcanvas-sidebar"></aside>
+    <!-- Start Header -->
+    <header class="main-header header-style-1 font-heading pt-15">
+        <div class="header-sticky">
+            <div class="container align-self-center position-relative">
+                <div class="mobile_menu d-lg-none d-block"></div>
+                <div class="main-nav d-none d-lg-block float-left">
+                    <nav>
+                        <!--Desktop menu-->
+                        <ul class="main-menu d-none d-lg-inline font-medium">
+                            <li><a href="/"> <i class="elegant-icon icon_house_alt mr-5"></i>Inicio</a></li>
+                            <li> <a href="#">Caracteristicas</a> </li>
+                            <li> <a href="#">Planes</a> </li>
+                            <li> <a href="#">Contacto</a> </li>
+                            <li> <a href="#">Sobre nosotros</a> </li>
+                        </ul>
+                        <!--Mobile menu-->
+                        <ul id="mobile-menu" class="d-block d-lg-none text-muted">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li><a href="#">Single post</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="float-right header-tools text-muted font-small">
+                    <ul class="header-social-network d-inline-block list-inline">
+                        <li class="list-inline-item"><a class="social-icon fb text-xs-center" target="_blank" href="#"><i class="elegant-icon social_facebook"></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon tw text-xs-center" target="_blank" href="#"><i class="elegant-icon social_twitter "></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon pt text-xs-center" target="_blank" href="#"><i class="elegant-icon social_pinterest "></i></a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Start Main content -->
+    <img src="assets/imgs/bg/hero_blur.svg" alt="" style="position: absolute; top: 0; right: 0; z-index: -1;">
+    <main>
+        <img src="assets/imgs/bg/hero_blur_left.png" alt="" style="position: absolute; top: 150%; left: 0;">
+        <div class="featured-1 wow fadeInUp animated" style="background-color: transparent;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 align-self-center">
+                        <center><img src="assets/imgs/theme/logo.svg" alt="" width="70" height="70" class="logo"></center>
+                        <p class="text-muted"><span class="typewrite d-inline" data-period="2000" data-type='[ " Travel Blogger. ", "Content Writter. ", "Food Guides " ]'></span></p>
+                        <h2 style="font-size: 64px;">Incrementa las ventas de tu negocio</h2>
+                        <p class="text-muted pt-20 font-large">Create and sell courses, coaching, memberships, communities and other digital products where people already are.</p>
+                        <form class="input-group form-subcriber mt-30 d-flex">
+                            <input type="email" class="form-control bg-white font-small" placeholder="Ingresa tu correo">
+                            <button class="btn bg-primary text-white" type="submit">Suscribete</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 text-right d-none d-lg-block">
+                        <img src="assets/imgs/theme/logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container bg-grey">
+            <div class="loop-grid">
+                <img src="assets/imgs/bg/_zened-mockup.webp" alt="">
+            </div>
+            <div class="sidebar-widget widget-latest-posts mt-20" style="background: url('assets/imgs/bg/ball-wed.svg');">
+                <div class="position-relative mb-30">
+                    <h5 class="mt-5 mb-30" style="border-top:1px solid #D6DEEC;"></h5>
+                </div>
+                <div class="carausel-3-columns">
+                    <div class="carausel-3-columns-item d-flex p-25 hover-up-2 transition-normal border-radius-5">
+                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                            <img src="assets/imgs/news/live_chat.svg" alt="">
+                        </div>
+                        <div class="post-content media-body">
+                            <h6>Live chat</h6>
+                            <p class="text-muted font-small">Podrás interactuar con tu cliente en tiempo real</p>
+                        </div>
+                    </div>
+                    <div class="carausel-3-columns-item d-flex p-25 hover-up-2 transition-normal border-radius-5">
+                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                            <img src="assets/imgs/news/logos_personalize.svg" alt="">
+                        </div>
+                        <div class="post-content media-body">
+                            <h6>Chat personalizado</h6>
+                            <p class="text-muted font-small">Podrás personalizar el chatbot a que responda a cualquier pregunta</p>
+                        </div>
+                    </div>
+                    <div class="carausel-3-columns-item d-flex p-25 hover-up-2 transition-normal border-radius-5">
+                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                            <a class="color-white" href="#">
+                                <img src="assets/imgs/news/logos_google-analytics.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="post-content media-body">
+                            <h6>Analítica</h6>
+                            <p class="text-muted font-small">Recibirás datos sobre las interacciones de tu chatbot</p>
+                        </div>
+                    </div>
+                    <div class="carausel-3-columns-item d-flex p-25 hover-up-2 transition-normal border-radius-5">
+                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                            <img src="assets/imgs/news/emo-link.png" alt="">
+                        </div>
+                        <div class="post-content media-body">
+                            <h6>Integración a redes sociales, web y correo electrónico</h6>
+                            <p class="text-muted font-small">Podrás añadir a cualquier red social, WhatsApp, email o web para interactuar automáticamente con tus clientes</p>
+                        </div>
+                    </div>
+                    <div class="carausel-3-columns-item d-flex p-25 hover-up-2 transition-normal border-radius-5">
+                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                            <img src="assets/imgs/news/dollar.png" alt="">
+                        </div>
+                        <div class="post-content media-body">
+                            <h6>Personalización de marca</h6>
+                            <p class="text-muted font-small">Podrás añadir tu logo, color y tipografía de tu marca al chatbot</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-grey pb-50" id="manageview">
+            <div class="container single-content">
+                <div class="entry-header">
+                    <div class="row wow fadeInUp animated">
+                        <div class="col-md-7 mb-md-0 mb-sm-3">
+                            <figure class="mb-0 mt-lg-0 mt-3 border-radius-5">
+                                <img class=" border-radius-5" src="assets/imgs/news/workonline.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-md-4 align-self-center">
+                            <div class="post-content">
+                                <h1 class="entry-subtitle mb-20 font-weight-bold">
+                                    Administra de manera segura.
+                                </h1>
+                                <p class="text-muted mb-30 font-large" style="color: #191919;">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br><br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br><br> when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end single header-->
+            </div>
+            <!--container-->
+        </div>
+        <!--More posts-->
+        <!-- <div class="single-more-articles border-radius-5">
+            <div class="widget-header-2 position-relative mb-30">
+                <h5 class="mt-5 mb-30">Tambien</h5>
+                <button class="single-more-articles-close"><i class="elegant-icon icon_close"></i></button>
+            </div>
+            <div class="post-block-list post-module-1 post-module-5">
+                <ul class="list-post">
+                    <li class="mb-30">
+                        <div class="d-flex hover-up-2 transition-normal">
+                            <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                <a class="color-white" href="#">
+                                    <img src="assets/imgs/news/playStore_button.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="post-content media-body">
+                                <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">Descargar app</a></h6>
+                                <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                    <span class="post-on">27 Jan</span>
+                                    <span class="post-by has-dot">14k views</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+    </main>
+    <!-- End Main content -->
+    <!--site-bottom-->
+    <div class="site-bottom pt-50 pb-50">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="sidebar-widget widget-latest-posts mb-30 wow fadeInUp animated">
+                        <div class="widget-header-2 position-relative mb-30">
+                            <h5 class="mt-5 mb-30">Destinations</h5>
+                        </div>
+                        <div class="post-block-list post-module-1">
+                            <ul class="list-post">
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">The Best Time to Travel to Cambodia</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">27 Jan</span>
+                                                <span class="post-by has-dot">13k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">20 Photos to Inspire You to Visit Cambodia</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">27 August</span>
+                                                <span class="post-by has-dot">14k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">Epic Arts Cambodia: Charity for the Disabled</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">29 August</span>
+                                                <span class="post-by has-dot">23k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="sidebar-widget widget-latest-posts mb-30 wow fadeInUp animated" data-wow-delay="0.2s">
+                        <div class="widget-header-2 position-relative mb-30">
+                            <h5 class="mt-5 mb-30">Lifestyle</h5>
+                        </div>
+                        <div class="post-block-list post-module-1">
+                            <ul class="list-post">
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">10 Ways to De-Stress Your Day Hour by Hour</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">12 August</span>
+                                                <span class="post-by has-dot">3k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">134 Free Weekly Meal Planner Printable</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">15 August</span>
+                                                <span class="post-by has-dot">4.1k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-6.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">Free Printable Stickers for Your Bullet Journal</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">16 August</span>
+                                                <span class="post-by has-dot">2.2k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-4">
+                    <div class="sidebar-widget widget-latest-posts mb-30 wow fadeInUp animated" data-wow-delay="0.4s">
+                        <div class="widget-header-2 position-relative mb-30">
+                            <h5 class="mt-5 mb-30">Photography</h5>
+                        </div>
+                        <div class="post-block-list post-module-1">
+                            <ul class="list-post">
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-7.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">Which TBA Preset Pack is Right For You?</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">06 May</span>
+                                                <span class="post-by has-dot">23k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-8.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">How to Get Amazing Photos at the Pyramids of Giza</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">05 Jun</span>
+                                                <span class="post-by has-dot">5k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-30">
+                                    <div class="d-flex hover-up-2 transition-normal">
+                                        <div class="post-thumb post-thumb-80 d-flex mr-15 border-radius-5 img-hover-scale overflow-hidden">
+                                            <a class="color-white" href="#">
+                                                <img src="assets/imgs/news/thumb-9.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content media-body">
+                                            <h6 class="post-title mb-15 text-limit-2-row font-medium"><a href="#">Beginner’s Guide to Travel Drone Photography</a></h6>
+                                            <div class="entry-meta meta-1 float-left font-x-small text-uppercase">
+                                                <span class="post-on">08 August</span>
+                                                <span class="post-by has-dot">2k views</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </div>
+    <!--end site-bottom-->
+    <!-- Footer Start-->
+    <footer class="pt-50 pb-20 bg-grey">
+        <div class="container">
+            <div class="row align-self-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="sidebar-widget wow fadeInUp animated mb-30">
+                        <div class="widget-header-2 position-relative mb-30">
+                            <h5>SOBRE NOSOTROS</h5>
+                        </div>
+                        <div class="textwidget text-muted font-small">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            </p>
+                            <p><strong class="color-black">Direccion</strong><br>
+                                123 Lorem Ipsum<br>
+                                Lima Peru, NY 10001</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy-right pt-30 mt-20 wow fadeInUp animated">
+                <p class="float-md-left font-small text-muted">© 2023, RaiBot - Busissnes Bot</p>
+                <p class="float-md-right font-small text-muted">
+                    Design by <a href="https://alithemes.com" target="_blank">Lateral</a> | Todos los derechos estan total mente reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <div class="dark-mark"></div>
+    <!-- Vendor JS-->
+    <script src="./assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/jquery.slicknav.js"></script>
+    <script src="./assets/js/vendor/slick.min.js"></script>
+    <script src="./assets/js/vendor/wow.min.js"></script>
+    <script src="./assets/js/vendor/jquery.ticker.js"></script>
+    <script src="./assets/js/vendor/jquery.vticker-min.js"></script>
+    <script src="./assets/js/vendor/jquery.scrollUp.min.js"></script>
+    <script src="./assets/js/vendor/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/vendor/jquery.magnific-popup.js"></script>
+    <script src="./assets/js/vendor/jquery.sticky.js"></script>
+    <script src="./assets/js/vendor/perfect-scrollbar.js"></script>
+    <script src="./assets/js/vendor/waypoints.min.js"></script>
+    <script src="./assets/js/vendor/jquery.theia.sticky.js"></script>
+    <!-- NewsBoard JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
