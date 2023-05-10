@@ -57,6 +57,7 @@ TABLE CONTENT
 .text-info{color:var(--color-info)!important;}
 .text-light{color:var(--color-light)!important;}
 .text-dark{color:var(--color-dark)!important;}
+.text-white2{color: #8C98A2;}
 .text-muted,
 .text-muted a{color:var(--color-muted)!important;}
 .text-white{color:var(--color-white)!important;}
@@ -84,6 +85,9 @@ button.bg-primary:hover{background-color:var(--color-danger)!important;}
 .border-radius-3{border-radius:3px;}
 .border-radius-5{border-radius:5px;}
 .border-radius-10{border-radius:10px;}
+.border-radius-15{border-radius:15px;}
+.btn-demo{transition: 0.2s; padding: 15px 20px 15px 20px; border-radius: 30px; background: #1463FF; text-decoration: none; cursor: pointer; border: 0px; color: white;}
+.btn-demo:hover{padding: 15px 30px 15px 30px; transition: 0.2s;}
 
 /* GENERAL */
 body{font-family:'Noto Sans JP',sans-serif;font-weight:normal;font-style:normal;font-size:14px;}
