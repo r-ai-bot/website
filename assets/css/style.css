@@ -373,7 +373,6 @@ ul li > a {color:#191919;}
 .footer-bottom-area .footer-copy-right p a:hover{color:#fff}
 .footer-menu ul li{display:inline-block;margin-left:36px}
 .footer-menu ul li:first-child{margin-left:0px}
-.footer-copy-right{border-top:1px solid var(--mutted-border-color)}
 
 /*Pagination*/
 .pagination-area .page-item{margin:0}
