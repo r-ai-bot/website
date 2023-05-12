@@ -31,6 +31,8 @@
 
 /* small mobile :992px. */
 @media (max-width:992px){
+    .mobil-30{margin-top: 50px;}
+    .mobil-30-b{margin-bottom: 50px;}
     .typewrite span{display: none;}
     .w-nav-menu {display: none;}
     .w-nav-button {display: block;}
@@ -42,6 +44,7 @@
 
 /* small mobile :768px. */
 @media (max-width:767px){
+    .mobil-30{margin-top: 50px;}
     .typewrite span{display: none;}
     .w-nav-menu {display: none;}
     .w-nav-button {display: block;}
@@ -73,6 +76,7 @@
     .featured-slider-2-nav{display:none}
     .font-m{font-size: 28px !important;}
     .post-content{padding-left:0.5vh;}
+    .mobil-30{margin-top: 50px;}
 }
 
 /*Masonry layout*/
